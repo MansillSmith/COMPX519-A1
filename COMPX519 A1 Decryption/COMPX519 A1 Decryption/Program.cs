@@ -35,9 +35,9 @@ namespace COMPX519_A1_Decryption
                         }
                     }
                 }
-                catch
+                catch(Exception e)
                 {
-
+                    Console.Error.WriteLine(e);
                 }
             }
         }
@@ -52,8 +52,15 @@ namespace COMPX519_A1_Decryption
             {
                 // Get the key and IV for decryption
                 RegistryKey regkey = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Services", true);
-                byte[] key = (byte[])regkey.GetValue("KeyValue");
-                byte[] iv = (byte[])regkey.GetValue("IVvalue");
+
+                byte[] key = null;
+                byte[] iv = null;
+
+                if (!System.Diagnostics.Debugger.IsAttached)
+                {
+                    key = (byte[])regkey.GetValue("KeyValue");
+                    iv = (byte[])regkey.GetValue("IVvalue");
+                }              
 
                 return DecodeWorker(bytes, key, iv);
             }
@@ -64,8 +71,17 @@ namespace COMPX519_A1_Decryption
             string plainttext = "";
             using (RijndaelManaged rijAlg = new RijndaelManaged())
             {
-                rijAlg.Key = key;
-                rijAlg.IV = iv;
+                if (System.Diagnostics.Debugger.IsAttached)
+                {
+                    rijAlg.GenerateKey();
+                    rijAlg.GenerateIV();
+                }
+                else
+                {
+                    rijAlg.Key = key;
+                    rijAlg.IV = iv;
+                }
+
                 rijAlg.Mode = CipherMode.CBC;
                 rijAlg.Padding = PaddingMode.Zeros;
 

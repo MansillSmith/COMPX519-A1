@@ -5,3 +5,10 @@ D:\School Work\2021\B\COMPX519\Decryption\COMPX519 A1 Decryption\COMPX519 A1 Dec
 D:\School Work\2021\B\COMPX519\Decryption\COMPX519 A1 Decryption\COMPX519 A1 Decryption\bin\Debug\COMPX519 A1 Decryption.pdb
 D:\School Work\2021\B\COMPX519\Decryption\COMPX519 A1 Decryption\COMPX519 A1 Decryption\obj\Debug\COMPX519 A1 Decryption.exe
 D:\School Work\2021\B\COMPX519\Decryption\COMPX519 A1 Decryption\COMPX519 A1 Decryption\obj\Debug\COMPX519 A1 Decryption.pdb
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\bin\Debug\COMPX519 A1 Decryption.exe.config
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\bin\Debug\COMPX519 A1 Decryption.exe
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\bin\Debug\COMPX519 A1 Decryption.pdb
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\obj\Debug\COMPX519 A1 Decryption.csprojAssemblyReference.cache
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\obj\Debug\COMPX519 A1 Decryption.csproj.CoreCompileInputs.cache
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\obj\Debug\COMPX519 A1 Decryption.exe
+D:\School Work\2021\B\COMPX519\Decryption\COMPX519-A1\COMPX519 A1 Decryption\COMPX519 A1 Decryption\obj\Debug\COMPX519 A1 Decryption.pdb
